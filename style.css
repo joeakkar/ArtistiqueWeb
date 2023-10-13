@@ -1,0 +1,483 @@
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: "bold",sans-serif;
+}
+
+.wrapper {
+    max-width: 1298.55px;
+    margin: auto;
+    
+    
+}
+
+/*header*/
+
+header {
+    background: #000000;
+    height: 30vh;
+    width: 100%;
+}
+body {
+    background: #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    /* position:fixed; */
+    width:1298.55px;
+    /* top: 40px; */
+}
+
+.logo {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    /* margin-top: -10px;  */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+
+}
+
+nav ul li a{
+    font-family: "Inter", sans-serif;
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+  
+    
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav {
+   padding: 30px;
+}
+.center{
+    align-items: center;
+}
+
+.left p{
+    position: absolute;
+    left: 140px;
+    top: 200px;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    /* margin-top: -10px;  */
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+.left p::first-letter {
+    text-transform: uppercase; /* Capitalize the first letter of each paragraph */
+}
+
+.left .right {
+    position: absolute;
+    left: 1028px;
+    top: 180px;
+
+}
+
+.left .left_image {
+    position: absolute;
+    left: 20px;
+    top: 450px;
+
+}
+.left h1{
+    position: absolute;
+    width: 809px;
+    height: 412px;
+    left: 200px;
+    top: 5px;
+
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 412px;
+
+    color: #FFFFFF;
+}
+.left h2{
+    position: absolute;
+    width: 809px;
+    height: 412px;
+    left: 400px;
+    top: 220px;
+
+    font-family: 'Playfair Display';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 412px;
+
+    color: #FFFFFF;
+}   
+.left a{
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+    color: #000000;
+}
+.left button{
+    position: absolute;
+    width: 260.96px;
+    height: 72.14px;
+    left: 744.59px;
+    top: 840.15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+
+
+    background: #FFFFFF;
+}
+
+section h1{
+    font-family: 'playfair display';
+    font-weight: 80;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+section .one{
+    margin-left: 150px;
+}
+section .two{
+    float:right;
+    margin-right: 150px;
+}
+section .three{
+    float:right;
+    margin-right: 150px;
+    margin-top: -320px;
+}
+section .four{
+    
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+section .five{
+    
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+section .six{
+    float:right;
+    margin-right: 150px;
+    margin-top: -610px;
+}
+
+#text1{
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    font-weight: 50;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: capitalize;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+section .seven{
+    float:right;
+    margin-right: 150px;
+    margin-top: -740px;
+ }  
+ section h2{
+    font-family: 'playfair display';
+    font-weight: 80;
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+
+}
+#text2{
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    font-weight: 0;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    opacity: 0.8;
+}
+section .reviews{
+    margin-left: -10px;
+    display: flex;
+    margin-top: 100px;
+}
+section .reviews .left-reviews{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+section .reviews .left-reviews .first-box{
+    display: flex;
+    margin-left: 220px;
+    font-family: 'Inter',sans-serif;
+    color: #bf9292;
+    font-size: 30px;
+    line-height: 40px;
+    background-color: rgb(42, 44, 44,0.5);
+    
+}
+section .reviews .left-reviews .first-box .box{
+    margin-top: -20px;
+    margin-left: 70px;
+}
+section .reviews .left-reviews .first-box .box h3{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 40px;
+    
+}
+section .reviews .left-reviews .first-box .box p{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.8;
+    
+}
+section .reviews .left-reviews .second-box .box{
+    margin-left: 20px;
+    margin-right: 80px;
+}
+section .reviews .left-reviews .second-box{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 220px;
+    font-family: 'Inter',sans-serif;
+    color: #bf9292;
+    font-size: 30px;
+    line-height: 40px;
+    background-color: rgb(42, 44, 44,0.5);
+    
+}
+section .reviews .left-reviews .second-box .box h3{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 40px;
+    
+}
+section .reviews .left-reviews .second-box .box p{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.8;
+    
+}
+section .reviews .right-reviews .therd-box{
+    /* display: flex; */
+    /* padding: 10px; */
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    background-color: rgb(42, 44, 44,0.5);
+    
+}
+section .reviews .right-reviews .therd-box h3{
+    /* display: flex; */
+    /* padding: 10px; */
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    
+    
+}
+section .reviews .right-reviews .therd-box p{
+    /* display: flex; */
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Inter',sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.8;
+    
+}
+
+
+section .reviews .right-reviews .therd-box .box{
+    height: 330px;
+}
+.see-full a{
+    /* background-color: #bf9292; */
+    font-family: 'Inter',sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 1;
+    
+}
+.see-all-reviews{
+   
+    width: 15%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    text-align: center;
+   
+}
+.see-all-reviews a{
+    
+    font-family: 'Inter',sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 20px;
+    /* border-radius: 20px; */
+    border: solid 1px white;
+    
+}
+section .reviews{
+    margin-left: -30px;
+}
+.testimonials{
+    margin-top: 200px;
+}
+
+.contact{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 50%;
+
+}
+.contact p{
+    font-family: 'Inter',sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.contact .email p{
+    font-family: 'Inter',sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.input{
+    /* border-radius: 10px; */
+    padding: 12px;
+    width: 760px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px white;
+    
+    
+}
+.contact .name{
+    margin-bottom: 50px;
+}
+.contact .email{
+    margin-bottom: 50px;
+}
+.send button{
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+}
+.send {
+    margin-top: 50px;
+}
+    /* position: absolute;
+    width: 260.96px;
+    height: 72.14px;
+    left: 744.59px;
+    top: 840.15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+
+
+    background: #FFFFFF; */
+
+footer h3{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+footer a{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 15px;
+    opacity: 0.8;
+    
+
+    color: #FFFFFF;
+}
+footer div{
+    
+    text-align: center;
+    padding-bottom: 60px;
+}
+.hero-section .left h1{
+    margin-top: 210px;
+}
