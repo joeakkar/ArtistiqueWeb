@@ -1,7 +1,7 @@
 ﻿# ArtistiqueWeb
 
 Galerie Artistique Web
-Le projet de la "Galerie Artistique Web" a été créé pour répondre aux besoins d'une galerie d'art en ligne à la recherche d'une présence web professionnelle et attrayante. Il a été conçu et développé par [Votre Nom] au sein de l'agence "ArtistiqueWeb".
+Le projet de la "Galerie Artistique Web" a été créé pour répondre aux besoins d'une galerie d'art en ligne à la recherche d'une présence web professionnelle et attrayante. Il a été conçu et développé par elagar jalal eddine au sein de l'agence "ArtistiqueWeb".
 
 Objectif
 L'objectif de ce projet est de concevoir et développer un site web interactif pour mettre en valeur les œuvres d'art des artistes représentés par la galerie. Le site doit fournir une expérience utilisateur exceptionnelle tout en présentant des informations sur les artistes et en permettant aux visiteurs de contacter la galerie.
